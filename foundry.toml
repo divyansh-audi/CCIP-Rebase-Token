@@ -2,10 +2,12 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+rpc_endpoints = { sepolia-eth = "https://sepolia.infura.io/v3/6150745087944846bcc0ed168f93102b", arb-sepolia = "https://skilled-blue-river.arbitrum-sepolia.quiknode.pro/74221b5baec651c9df074203cc73834c473e2bf9/" }
 remappings = [
     "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts",
     "@ccip/=lib/ccip/",
     "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+    "@chainlink/local/=lib/chainlink-local/",
 ]
 [fuzz]
 runs = 256

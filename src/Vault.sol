@@ -5,7 +5,7 @@ import {IRebaseToken} from "./interfaces/IRebaseToken.sol";
 
 contract Vault {
     error Vault__RedeemFailed();
-    //We need to pass the token address to the constructor
+    // We need to pass the token address to the constructor
     // create a deposit function that mints tokens to the user equal to the amount of ETH the user sends
     // create a redeem function that burns token from the user and sends the user ETH
     // create a functiom that allows the owner to set the interest rate
